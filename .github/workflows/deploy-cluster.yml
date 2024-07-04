@@ -2,7 +2,7 @@ name: Deploy gitshow K8s cluster in EKS
 run-name: ${{ github.actor }} has changed EKS configuration, redeploying cluster
 on:
   push:
-    paths: [cluster/**]
+    # paths: [cluster/**]
     branches: ['main']
 jobs: 
   deploy-gitshow-cluster:
